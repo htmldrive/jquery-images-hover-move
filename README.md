@@ -8,9 +8,9 @@ Image Hover Move- simple and practical navigation or featured image jQuery plugi
 ##Usage
 **Include js and css files.**
 
-<link href="css/images_hover_move.css" rel="stylesheet" type="text/css" />
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-<script src="js/images_hover_move.js"></script>
+    <link href="css/images_hover_move.css" rel="stylesheet" type="text/css" />
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    <script src="js/images_hover_move.js"></script>
   
 **Add html.**
 
