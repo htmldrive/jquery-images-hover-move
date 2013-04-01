@@ -1,0 +1,91 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <title>Image Hover Move- simple and practical navigation or featured image jQuery plugin</title>
+        <style type="text/css">
+            h1{
+                font-size: 20px
+            }
+            h2{
+                font-size: 16px;
+                color: red;
+            }
+            pre{
+                padding: 4px;
+                border: #F90 dotted 1px;
+            }
+        </style>
+        <link href="css/images_hover_move.css" rel="stylesheet" type="text/css" />
+        <!--script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script-->
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+        <script src="js/images_hover_move.js"></script>
+        <script language="javascript" type="text/javascript">
+            $(function() {
+                $("#images_hover_move").images_hover_move({
+                    window_width: '600',//slideshow window width
+                    window_height: '190',//slideshow window height
+                    border_color: '#999',
+                    title_color: '#333',
+                    title_background_color: '#CCC',
+                    background_color: '#f5f5f5'
+                });
+                $("#images_hover_move1").images_hover_move({
+                    window_width: '600',//slideshow window width
+                    window_height: '100',//slideshow window height
+                    border_color: '#999',
+                    title_color: '#333',
+                    title_background_color: '#CCC',
+                    background_color: '#f5f5f5'
+                });
+            });
+        </script>
+    </head>
+    <body>
+        <h1>Image Hover Move- simple and practical navigation or featured image jQuery plugin</h1>
+        <h2>Demo1(featured image style)</h2>
+        <div id="images_hover_move" class="images_hover_move">
+            <ul>
+                <li><a href="#"><img src="images/slideshow_large_1.jpg" title="title1" wdith="259" height="194" /></a></li>
+                <li><a href="#"><img src="images/slideshow_large_2.jpg" title="title2" wdith="259" height="194" /></a></li>
+                <li><a href="#"><img src="images/slideshow_large_3.jpg" title="title3" wdith="203" height="203" /></a></li>
+                <li><a href="#"><img src="images/slideshow_large_4.jpg" title="title4" wdith="259" height="194" /></a></li>
+            </ul>
+        </div>
+        <h2>Demo1(navigation style)</h2>
+        <div id="images_hover_move1" class="images_hover_move">
+            <ul>
+                <li><a href="#"><img src="images/slideshow_large_1.jpg" title="Navigation1" wdith="259" height="194" /></a></li>
+                <li><a href="#"><img src="images/slideshow_large_2.jpg" title="Navigation2" wdith="259" height="194" /></a></li>
+                <li><a href="#"><img src="images/slideshow_large_3.jpg" title="Navigation3" wdith="249" height="203" /></a></li>
+                <li><a href="#"><img src="images/slideshow_large_4.jpg" title="Navigation4" wdith="259" height="194" /></a></li>
+            </ul>
+        </div>
+        <h2>Usage</h2>
+        <h3>Include js files.</h3>
+        <pre>&lt;link href=&quot;css/images_hover_move.css&quot; rel=&quot;stylesheet&quot; type=&quot;text/css&quot; /&gt;<br />&lt;script src=&quot;http://ajax.googleapis.com/ajax/libs/jquery/1.4.0/jquery.min.js&quot;&gt;&lt;/script&gt;<br />&lt;script src=&quot;js/images_hover_move.js&quot;&gt;&lt;/script&gt;
+        </pre>
+        <h3>Add html.</h3>
+        <pre>
+&lt;div id=&quot;images_hover_move&quot; class=&quot;images_hover_move&quot;&gt;<br />  &lt;ul&gt;<br />        &lt;li&gt;&lt;a href=&quot;#&quot;&gt;&lt;img src=&quot;images/001.jpg&quot; title=&quot;title1&quot; /&gt;&lt;/a&gt;&lt;/li&gt;<br />        &lt;li&gt;&lt;a href=&quot;#&quot;&gt;&lt;img src=&quot;images/003.jpg&quot; title=&quot;title2&quot; /&gt;&lt;/a&gt;&lt;/li&gt;<br />        &lt;li&gt;&lt;a href=&quot;#&quot;&gt;&lt;img src=&quot;images/004.jpg&quot; title=&quot;title3&quot; /&gt;&lt;/a&gt;&lt;/li&gt;<br />        &lt;li&gt;&lt;a href=&quot;#&quot;&gt;&lt;img src=&quot;images/006.jpg&quot; title=&quot;title4&quot; /&gt;&lt;/a&gt;&lt;/li&gt;<br />    &lt;/ul&gt;<br />&lt;/div&gt;
+        </pre>
+        <h3>Add startup script.</h3>
+        <pre>
+&lt;script language=&quot;javascript&quot; type=&quot;text/javascript&quot;&gt;<br />    $(function() {<br />        $(&quot;#images_hover_move&quot;).images_hover_move({<br />            window_width: '600',<br />            window_height: '250',<br />            border_color: '#999',<br />            title_color: '#333',<br />            title_background_color: '#CCC',<br />            background_color: '#f5f5f5'<br />        });<br />    });<br />&lt;/script&gt;
+        </pre>
+        <pre>
+Copyright 2010 <a href="http://www.htmldrive.net">htmldrive.net</a> Inc.
+
+@projectHomepage: <a href="http://www.htmldrive.net/s/view/id/605">http://www.htmldrive.net/s/view/id/605</a>
+
+@projectDescription: Stylish featured image slideshow jQuery plugin.
+
+@author: <a href="http://www.htmldrive.net">htmldrive.net</a>
+
+More script and css style : <a href="http://www.htmldrive.net">htmldrive.net</a>
+
+@version 1.0
+
+@license http://www.apache.org/licenses/LICENSE-2.0
+        </pre>
+    </body>
+</html>
